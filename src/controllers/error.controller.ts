@@ -10,6 +10,6 @@ export default class ErrorController {
         code: (error as CustomError).errorCode,
         message: error.message
       });
-    // next();
+    next();
   }
 }
